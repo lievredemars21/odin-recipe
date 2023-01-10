@@ -4,48 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Odin's recipe</title>
 </head>
 <body>
-    <header class="top">
-        <div class="titre">
-            <h1>Les recettes d'Odin</h1>
-            <img src="./img/odin1.jpeg" alt="Odin" width="50px">
+    <header>
+        <div class="top">
+            <h1>Odin's Recipe</h1><img src="./img/odin1.jpeg" alt="logo" width="50px">
         </div>
-        <nav class="nav-pages">
-            <li class="nav-list"><a href="./index.html">Home</a></li>
-            <li class="nav-list"><a href="./pages/page1.html">page1</a></li>
-            <li class="nav-list"><a href="./pages/page2.html">page2</a></li>
-            <li class="nav-list"><a href="./pages/page3.html">page3</a></li>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#">Recette 1</a></li>
+                <li class="nav-link"><a href="#">Recette 2</a></li>
+                <li class="nav-link"><a href="#">Recette 3</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h2>Lasagnes à la bolognaise</h2>
-        <div class="info">
-            <li class="info1">Temps total: 2h05</li>
-            <li class="info1">Cuisson: 1h35</li>
-            <li class="info1">Difficulté: Moyenne</li>
-            <li class="info1">Cout: moyen</li> 
-        </div>
-        <div class="ingredient">
-            <h3>8 personnes</h3>
-            <ul>
-                <li>1 paquet de lasagnes</li>
-                <li>3 oignons jaunes</li>
-                <li>2 gousses d'ail</li>
-                <li>1 branche de céleri</li>
-                <li>1 carotte</li>
-                <li>600g de boeuf haché</li>
-                <li>800g de purée de tomate</li>
-                <li>15cl d'eau</li>
-                <li>20cl de vin rouge</li>
-                <li>2 feuilles de laurier</li>
-                <li>thym</li>
-                <li>basilic</li>
-            </ul>
-        </div>
-        <div class="preparation">
+        <ul class="time">
+            <li class="time-list"><span class="color1">Temps total:</span> 2h05</li>
+            <li class="time-list"><span class="color1">Cuisson:</span> 1h35</li>
+            <li class="time-list"><span class="color1">Difficulté:</span> moyenne</li>
+            <li class="time-list"><span class="color1">Coût:</span> moyen</li>
+        </ul>
+        <section class="ingredients">
+            <div class="left">
+                <h3>8 personnes</h3>
+                <ul class="ing-list">
+                    <li>1 paquet de lasagnes</li>
+                    <li>3 oignons jaunes</li>
+                    <li>2 gousses d'ail</li>
+                    <li>1 branche de céleri</li>
+                    <li>1 carotte</li>
+                    <li>600g de boeuf haché</li>
+                    <li>800g de purée de tomate</li>
+                    <li>15cl d'eau</li>
+                    <li>20cl de vin rouge</li>
+                    <li>2 feuilles de laurier</li>
+                    <li>thym</li>
+                    <li>basilic</li>
+                </ul>
+            </div>
+            <div class="right">
+                <img src="./img/lasagne2.jpeg" alt="lasagnes" width="250px">
+            </div>
+        </section>
+        <section class="preparation">
             <h3>Étape 1:</h3>
             <p>Faire revenir gousses hachées d'ail et les oignons émincés dans un peu d'huile d'olive.</p>
             <h3>Étape 2:</h3>
@@ -67,15 +72,21 @@
             <h3>Étape 10:</h3>
             <p>Ensuite, parfumer avec la muscade, saler, poivrer. Laisser cuire environ 5 minutes, à feu très doux, en remuant. Réserver.</p>
             <h3>Étape 11:</h3>
-            <p>Préchauffer le four à 200°C (thermostat 6-7). Huiler le plat à lasagnes. Poser une fine couche de béchamel puis des feuilles de lasagnes, de la bolognaise, de la béchamel et du parmesan. Répéter l'opération 3 fois de suite.</p>
+            <p>Préchauffer le four à 200°C (thermostat 6-7). Huiler le plat à lasagnes.<br> Poser une fine couche de béchamel puis des feuilles de lasagnes, de la bolognaise, de la béchamel et du parmesan. Répéter l'opération 3 fois de suite.</p>
             <h3>Étape 12:</h3>
             <p>Sur la dernière couche de lasagnes, ne mettre que de la béchamel et recouvrir de fromage râpé. Parsemer quelques noisettes de beurre.</p>
             <h3>Étape 13:</h3>
             <p>Enfourner pour environ 25 minutes de cuisson.</p>
             <h3>Étape 14:</h3>
-            <p></p>
-        </div>
+            <p>Bon appetit !</p>
+        </section>
     </main>
-    
+    <footer>
+        <ul class="foot-list">
+            <li class="foot-link"><a href="#"></a></li>
+            <li class="foot-link"><a href="#"></a></li>
+            <li class="foot-link"><a href="#"></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
